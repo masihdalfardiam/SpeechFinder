@@ -1,0 +1,11 @@
+
+DEBUG = True
+ALLOWED_HOSTS = ['*']
+CORS_ORGIN_ALLOW_ALL = True
+
+
+DB_NAME = ''
+DB_HOST = ''
+DB_USER = ''
+DB_PASS = ''
+DB_PORT = ''
