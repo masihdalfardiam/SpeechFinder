@@ -12,6 +12,8 @@ from core.utils.voice_to_text import voice_to_text
 import random
 
 
+
+
 class CreateUserView(generics.CreateAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer
