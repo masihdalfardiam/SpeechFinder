@@ -7,6 +7,8 @@ from .views import (
 )
 
 
+
+
 urlpatterns = [
     re_path(r"^auth/register/?$", CreateUserView.as_view(), name="user-register"),
     re_path(r"^auth/login/?$", UserLoginView.as_view(), name="user-login"),
